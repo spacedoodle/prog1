@@ -7,8 +7,10 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
 
-        NSLog(@"Programming is fun!");
-        NSLog(@"And programming in Objective-C is even more fun!!!");
+        int sum;
+        sum = 50 + 25;
+        
+        NSLog(@"The sum of 50 + 25 is %i", sum);
         
     }
     return 0;
